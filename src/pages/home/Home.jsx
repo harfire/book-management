@@ -1,5 +1,4 @@
 import React from 'react';
-import Carousel from '../../components/carousel/Carousel';
 import CategoriesPopular from '../../components/categories/CategoriesPopular';
 import Listbook from '../../components/listbook/Listbook';
 import dummyResponse from '../../dummy-data/item-product';
@@ -9,9 +8,6 @@ const Home = () => {
   return (
     <React.Fragment>
       <div className='container'>
-        <div className='is-clearfix'>
-          <Carousel />
-        </div>
         <div className='columns'>
           <div className='column'>
             <h3 className='categories-font'>Popular Categories</h3>
