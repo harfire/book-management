@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { NavLink } from 'react-router-dom';
 import Login from '../login/LoginPopup';
 import Appendix from '../appendix/Appendix';
 
@@ -12,7 +11,7 @@ export default function Header() {
         <div className='container is-fluid'>
           <nav className='navbar' role='navigation' aria-label='main navigation'>
             <div className='navbar-brand is-4'>
-              <div className='navbar-item' href='!#'>
+              <div className='navbar-item'>
                 <a href='http://localhost:3000/'>
                   <img src='/image/logo/logo.png' width='112' height='28' alt='' />
                 </a>
