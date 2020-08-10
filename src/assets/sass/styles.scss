@@ -36,24 +36,23 @@ html {
 // css popular categories
 .rectangle-85 {
   flex-direction: row;
-  width: 254px;
-  height: 310px;
-  box-shadow: 0 8px 16px 0 lighten($grey, 47%);
+  height: auto;
+  box-shadow: 0 4px 10px 4px lighten($grey, 47%);
   background-color: #ffffff;
   margin-right: 25px;
   margin-top: 20px;
   border-radius: $radius-large;
 
   .self-Development {
+    text-align: center;
     width: 206px;
-    height: 85px;
-    font-size: 24px;
+    height: auto;
+    font-size: 14px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
     letter-spacing: normal;
-    text-align: left;
     color: $primary;
   }
 }
@@ -143,4 +142,10 @@ html {
   a {
     color: black;
   }
+}
+
+.modal-content {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
 }
