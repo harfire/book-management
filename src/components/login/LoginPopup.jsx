@@ -10,17 +10,10 @@ const Login = (props) => {
         <div className='modal-background'></div>
         <div className='modal-content'>
           <button className='modal-close is-large' aria-label='close'></button>
-          <div>
-            <h2>Sign in</h2>
-            <br />
-            <h4>
-              or <b>create an accont</b>
-            </h4>
-          </div>
 
           <div className='field'>
+            <h1 className='is-size-3 m-b-20'>Login</h1>
             <p className='control has-icons-left has-icons-right'>
-              <label className='label'>Email</label>
               <input className='input' type='email' placeholder='Email' />
               <span className='icon is-small is-left'>
                 <i className='fas fa-envelope'></i>
@@ -32,18 +25,17 @@ const Login = (props) => {
           </div>
           <div className='field'>
             <p className='control has-icons-left'>
-              <label className='label'>Password</label>
               <input className='input' type='password' placeholder='Password' />
               <span className='icon is-small is-left'>
                 <i className='fas fa-lock'></i>
               </span>
             </p>
           </div>
-        </div>
-        <div className='modal-card-foot'>
           <div className='field'>
             <p className='control'>
-              <button className='button is-primary'>Sign in</button>
+              <a href='http://localhost:3000/admin' className='button is-success'>
+                Login
+              </a>
             </p>
           </div>
         </div>

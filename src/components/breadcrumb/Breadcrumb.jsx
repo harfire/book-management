@@ -6,10 +6,7 @@ const Breadcrumb = () => {
     <nav className='breadcrumb m-t-20' aria-label='breadcrumbs'>
       <ul>
         <li>
-          <a href='!#'>Home</a>
-        </li>
-        <li>
-          <a href='!#'>Art</a>
+          <a href='http://localhost:3000/'>Home</a>
         </li>
         <li className='is-active'>
           <a href='!#' aria-current='page'>

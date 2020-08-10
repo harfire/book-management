@@ -17,31 +17,32 @@ const BookDetail = (props) => {
       </div>
       <div className='columns is-gapless'>
         <div className='column'>
-          <img className='book-detail-image' src={`${process.env.PUBLIC_URL}/image/listBook/2@2x.png`} alt='' />
+          <img className='book-detail-image' src={`${process.env.PUBLIC_URL}/image/listBook/2.png`} alt='' />
         </div>
         <div className='column'>
           <h3 className='is-size-1'>Steal Like an Artist</h3>
           <h3 className='is-size-4'>Austin Kleon</h3>
           <hr />
           <div className='columns is-gapless'>
-            <div className='column is-3 has-text-weight-bold'>Quantity</div>
+            <div className='column is-4 has-text-weight-bold'>Quantity</div>
             <div className='column'>
-              <input type='number' className='input qty' />6 peace available
+              <input type='number' className='input qty' />
+              <span className='m-l-10'>6 peace available</span>
             </div>
           </div>
           <div className='columns is-gapless'>
-            <div className='column is-3 has-text-weight-bold'>Shipping Charges</div>
+            <div className='column is-4 has-text-weight-bold'>Shipping Charges</div>
             <div className='column'>
-              to
               <div className='select'>
                 <select className='has-text-weight-bold'>
                   <option>Jakarta,Cengkareng</option>
                   <option>Jakarta,lenteng agung</option>
                 </select>
               </div>
-              <br />
-              from Surabaya <br />
-              Fee Rp 15.000-Rp 24.000
+              <div className='m-t-10'>
+                from Surabaya <br />
+                Fee Rp 15.000-Rp 24.000
+              </div>
             </div>
           </div>
           <div className='columns is-gapless'>

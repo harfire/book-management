@@ -4,7 +4,7 @@ const Listbook = (props) => {
   return (
     <>
       <div className='column'>
-        <a href='!#'>
+        <a href='http://localhost:3000/books/1'>
           <img src={props.imgurl} alt={props.title} />
         </a>
 
@@ -12,14 +12,6 @@ const Listbook = (props) => {
         <p>{props.writer}</p>
         <br />
         <h5>{props.price}</h5>
-        <div>
-          <img src='/image/rating-gold/star.png' alt='' />
-          <img src='/image/rating-gold/star.png' alt='' />
-          <img src='/image/rating-gold/star.png' alt='' />
-          <img src='/image/rating-gold/star.png' alt='' />
-          <img src='/image/rating-gold/star.png' alt='' />
-          <span>(24.039)</span>
-        </div>
       </div>
     </>
   );

@@ -10,7 +10,7 @@ const Home = () => {
       <div className='container'>
         <div className='columns'>
           <div className='column'>
-            <h3 className='categories-font'>Popular Categories</h3>
+            <h3 className='categories-font m-t-30'>Popular Categories</h3>
           </div>
         </div>
 
@@ -22,7 +22,7 @@ const Home = () => {
 
         <div className='columns'>
           <div className='column'>
-            <h3 className='categories-font '>Best Selling Novel Books</h3>
+            <h3 className='categories-font m-t-20'>Best Selling Novel Books</h3>
           </div>
         </div>
 

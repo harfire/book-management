@@ -8,6 +8,7 @@ import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import BookDetail from './pages/books/BookDetail';
 import Login from './components/login/LoginPopup';
+import Admin from './components/admin/Admin';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/books/:id' component={BookDetail} />
           <Route exact path='/login' component={Login} />
+          <Route exact path='/admin' component={Admin} />
         </Switch>
         <Footer></Footer>
       </Router>

@@ -40,14 +40,6 @@ export default function Header() {
 
               <div className='navbar-end'>
                 <div className='navbar-item'>
-                  <a href=''>
-                    <img src='/image/cartLogo/cart.png' alt='' />
-                  </a>
-                </div>
-                <div className='navbar-item'>
-                  <div className='vertical-line'></div>
-                </div>
-                <div className='navbar-item'>
                   <div className='buttons'>
                     <div className='button is-primary' onClick={() => setModal(true)}>
                       Login
