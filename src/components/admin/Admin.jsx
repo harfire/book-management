@@ -4,8 +4,6 @@ import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 import dummyResponse from '../../dummy-data/item-product';
 
 const Admin = (props) => {
-  const { match } = props;
-
   return (
     <div className='container'>
       <div className='columns is-gapless'>
@@ -19,19 +17,21 @@ const Admin = (props) => {
             <p className='menu-label'>General</p>
             <ul className='menu-list'>
               <li>
-                <a>Dashboard</a>
+                <a href='!#'>Dashboard</a>
               </li>
             </ul>
             <p className='menu-label'>Transactions</p>
             <ul className='menu-list'>
               <li>
-                <a class='is-active'>Daftar Buku</a>
+                <a href='!#' class='is-active'>
+                  Daftar Buku
+                </a>
               </li>
               <li>
-                <a>Promo Buku</a>
+                <a href='!#'>Promo Buku</a>
               </li>
               <li>
-                <a>Buku Baru</a>
+                <a href='!#'>Buku Baru</a>
               </li>
             </ul>
           </aside>

@@ -6,8 +6,6 @@ import dummyResponse from '../../dummy-data/item-product';
 import Listbook from '../../components/listbook/Listbook';
 
 const BookDetail = (props) => {
-  const { match } = props;
-
   return (
     <div className='container'>
       <div className='columns is-gapless'>
